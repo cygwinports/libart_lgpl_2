@@ -1,0 +1,9 @@
+ORIG_PN=libart_lgpl
+inherit gnome2
+
+DESCRIPTION="2D vector graphics library"
+HOMEPAGE="http://www.levien.com/libart/"
+
+PKG_NAMES="${PN} ${PN}_2 ${PN}-devel"
+libart_lgpl_2_2_CONTENTS='usr/bin/*_2-2.dll usr/share/'
+libart_lgpl_2_devel_CONTENTS='usr/bin/*-config usr/include/ usr/lib/'

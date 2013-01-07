@@ -1,0 +1,18 @@
+ORIG_PN=libart_lgpl
+inherit gnome2
+
+NAME="libart_lgpl_2"
+VERSION=2.3.21
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="2D graphics library used by GNOME 2 libraries"
+DESCRIPTION="Libart is a library of functions for 2D graphics supporting a
+superset of the PostScript imaging model, designed to be integrated with
+graphics, artwork, and illustration programs. It is written in optimized
+C, and is fully compatible with C++. With a small footprint of 10,000
+lines of code, it is especially suitable for embedded applications."
+HOMEPAGE="http://www.levien.com/libart/"
+
+PKG_NAMES="${PN} ${PN}_2 ${PN}-devel"
+libart_lgpl_2_2_CONTENTS='usr/bin/*_2-2.dll usr/share/'
+libart_lgpl_2_devel_CONTENTS='usr/bin/*-config usr/include/ usr/lib/'
